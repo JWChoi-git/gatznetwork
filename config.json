@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "최지우"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n방향: Undirected\n\u003c/p\u003e\n레이아웃: ForceAtlas 2, Scaling - 35.0\n\u003c/p\u003e\n필터: Giant Component, Degree Range \u003e 50\n\u003c/p\u003e\n노드의 크기: Degree\n\u003c/p\u003e\n노드의 색깔: Betweenness Centrality",
+    "intro": "소설 \u0027The Great Gatsby\u0027의 전체 내용에서의 명사로 adjacency matrix를 시각화했습니다.",
+    "title": "\u0027The Great Gatsby\u0027 adjacency matrix"
+  },
+  "legend": {
+    "edgeLabel": "명사들 간의 관계",
+    "colorLabel": "매개 중심성",
+    "nodeLabel": "명사"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
